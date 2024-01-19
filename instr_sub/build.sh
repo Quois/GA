@@ -1,0 +1,1 @@
+clang instr_sub.c -o instr_sub -fno-stack-protector -s

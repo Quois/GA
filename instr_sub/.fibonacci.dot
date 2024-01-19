@@ -1,0 +1,14 @@
+digraph "CFG for 'fibonacci' function" {
+	label="CFG for 'fibonacci' function";
+
+	Node0x564260db1a40 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{%0}"];
+	Node0x564260db1a40 -> Node0x564260db6500;
+	Node0x564260db6500 [shape=record,color="#b70d28ff", style=filled, fillcolor="#b70d2870",label="{%5|{<s0>T|<s1>F}}"];
+	Node0x564260db6500:s0 -> Node0x564260db6660;
+	Node0x564260db6500:s1 -> Node0x564260db66b0;
+	Node0x564260db6660 [shape=record,color="#b70d28ff", style=filled, fillcolor="#bb1b2c70",label="{%8}"];
+	Node0x564260db6660 -> Node0x564260db80f0;
+	Node0x564260db80f0 [shape=record,color="#b70d28ff", style=filled, fillcolor="#bb1b2c70",label="{%47}"];
+	Node0x564260db80f0 -> Node0x564260db6500;
+	Node0x564260db66b0 [shape=record,color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{%78}"];
+}

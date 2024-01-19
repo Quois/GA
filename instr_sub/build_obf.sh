@@ -1,0 +1,1 @@
+clang instr_sub.c -o instr_sub_obf -fno-stack-protector -s -DOBF
