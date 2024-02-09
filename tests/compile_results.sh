@@ -27,11 +27,8 @@ for i in ${methods[@]}; do
             "test_sub_2")
                 method="Instruction Substitution (2 passes)"
                 ;;
-            "test_sub_3")
-                method="Instruction Substitution (3 passes)"
-                ;;
-            "test_sub_4")
-                method="Instruction Substitution (4 passes)"
+            "test_bcf")
+                method="Bogus Control Flow"
                 ;;
         esac
         results[$method]+="$time,"
