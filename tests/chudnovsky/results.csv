@@ -1,6 +1,6 @@
-test_bcf,0.946
-test_cff,0.702
-test_indir,1.464
+test_bcf,0.984
+test_cff,0.728
+test_indir,1.400
 test_orig,0.596
-test_sub_1,0.591
-test_sub_2,0.646
+test_sub_1,0.611
+test_sub_2,0.686

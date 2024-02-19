@@ -1,7 +1,7 @@
 Method,Chudnovsky,Quicksort
-Original,0.596,4.664,
-Control Flow Flattening,0.702,21.746,
-Indirect Branching,1.464,15.041,
-Bogus Control Flow,0.946,10.229,
-Instruction Substitution (1 pass),0.591,4.761,
-Instruction Substitution (2 passes),0.646,5.208,
+Original,0.596,4.669
+Control Flow Flattening,0.728,27.886
+Indirect Branching,1.400,13.257
+Bogus Control Flow,0.984,8.442
+Instruction Substitution (1 pass),0.611,4.784
+Instruction Substitution (2 passes),0.686,5.358
